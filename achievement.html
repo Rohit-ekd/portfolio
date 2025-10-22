@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Achievements</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #f8f9fa;
+        padding: 40px 20px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 36px;
+        color: #007bff;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .achievement-category {
+        margin-bottom: 40px;
+      }
+
+      .achievement-category h2 {
+        color: #343a40;
+        margin-bottom: 20px;
+        border-left: 5px solid #007bff;
+        padding-left: 15px;
+      }
+
+      .achievement-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+      }
+
+      .achievement-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .achievement-card i {
+        color: #007bff;
+        margin-right: 10px;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="position: relative;">
+      <div style="position: absolute; top: 0px; left: 10px;">
+        <a href="index.html">
+          <i class="fa-solid fa-arrow-left fa-xl"></i>
+        </a>
+      </div>
+      <h1><i class="fas fa-trophy"></i> My Achievements</h1>
+
+      <!-- Academic Achievements -->
+      <div class="achievement-category">
+        <h2>🎓 Academic Achievements</h2>
+        <div class="achievement-card">
+          <i class="fas fa-medal"></i> BCA Gold Medalist awarded by Anandiben
+          Patel
+        </div>
+        <!-- <div class="achievement-card"><i class="fas fa-award"></i> 1st Rank in MCA Semester 2</div> -->
+        <div class="achievement-card">
+          <i class="fas fa-certificate"></i> Perfect Attendance Award
+          (2021-2024)
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="achievement-category">
+        <h2>💻 Projects</h2>
+        <div class="achievement-card">
+          <i class="fas fa-code"></i> Virtual Eco-Wallet – Node.js, Firebase
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-robot"></i> StudyMate Telegram Bot – Python
+        </div>
+        <!-- <div class="achievement-card"><i class="fas fa-car"></i> Car Lane Detection Project – OpenCV</div> -->
+      </div>
+
+      <!-- Certifications -->
+      <div class="achievement-category">
+        <h2>📜 Certifications</h2>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i>
+          <a
+            href="https://www.credly.com/badges/48d14f95-1715-4f7c-8d98-5d4264a6e544/public_url"
+            >Getting Started with Artificial Intelligence</a
+          >
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i>
+          <a
+            href="https://www.credly.com/badges/9a776de3-75f3-4bfc-8db9-e4892b3b321b/public_url"
+            >Journey to Cloud: Envisioning Your Solution</a
+          >
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i> <a href="#">NPTEL Cloud Computing</a>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i> <a href="#">NPTEL Java</a>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i>
+          <a
+            href="https://www.credly.com/badges/d0eab96d-60b4-48c8-a223-55bd1db46a32"
+            >CCNA: Introduction to Networks</a
+          >
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-book"></i>
+          <a
+            href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_012880464547618816347_shared/1-19351841-cae7-4583-aff4-1cbdfc5b4102.pdf"
+            >Programming using Java</a
+          >
+        </div>
+        <!-- <div class="achievement-card"><i class="fas fa-book"></i> <a href="">Programming using Java</a></div> -->
+      </div>
+
+      <!-- Extracurricular -->
+      <div class="achievement-category">
+        <h2>🏆 Extracurricular</h2>
+        <div class="achievement-card">
+          <i class="fas fa-futbol"></i> Cricket Tournament Participation
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-tv"></i> Featured in ADS Mid Show (2024)
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

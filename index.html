@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Varshney</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style_a.css" />
+    <link rel="stylesheet" href="./assets/css/hero.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      .hero-section {
+        background: url("./assets/imgs/img3.jpg") no-repeat center center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+        position: relative;
+      }
+
+      /* Profile Image */
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid white;
+        object-fit: cover;
+        position: absolute;
+        left: 50%;
+        bottom: -60px;
+        transform: translateX(-50%);
+      }
+
+      /* Button Styling */
+      .btn-custom {
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body class="gradient-background">
+    <header>
+      <nav
+        class="py-2 border-bottom"
+        style="background-color: rgb(247, 233, 233)"
+      >
+        <div class="container d-flex flex-wrap" id="home">
+          <ul class="nav me-auto">
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/rohit-varshney-4a0782257/"
+                class="nav-link link-body-emphasis px-2 active"
+                aria-current="page"
+                ><i class="fa-brands fa-linkedin fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://coursetpoint.netlify.app/"
+                class="nav-link link-body-emphasis px-2"
+                ><i class="fa-solid fa-globe fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://rohitvarshney.netlify.app/"
+                class="nav-link link-body-emphasis px-2"
+                ><i class="fa-solid fa-user fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/Rohit-ekd?tab=repositories"
+                class="nav-link link-body-emphasis px-2"
+                ><i class="fa-brands fa-github fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://leetcode.com/u/Rohit_Vars/"
+                class="nav-link link-body-emphasis px-2"
+                ><i class="fa-solid fa-code fa-xl"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://rohitvarshney.hashnode.dev/"
+                class="nav-link link-body-emphasis px-2"
+                ><i class="fa-solid fa-pen-to-square fa-xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="px-4 pt-5 text-center hero-section">
+      <!-- Main Heading -->
+      <h1 class="hero-title animate__animated animate__fadeInDown glow-text">
+        I'm Rohit Varshney
+      </h1>
+
+      <!-- Subheading -->
+      <div class="col-lg-6 mx-auto">
+        <h5 class="hero-subtitle animate__animated animate__fadeInUp">
+          Full Stack Developer | Aspiring Cloud Developer
+        </h5>
+
+        <!-- Buttons -->
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg px-4 me-sm-3 shadow-sm hover-effect"
+            id="print"
+          >
+            <i class="fa-solid fa-print"></i> Print Resume
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-secondary btn-lg px-4 shadow-sm hover-effect"
+            id="contact"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            <a href="#send" class="btn-link" style="text-decoration: none"
+              >Contact Me</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!-- Profile Image -->
+      <img
+        src="./assets/imgs/Rohit Img.jpeg"
+        alt="Profile Image"
+        class="profile-img"
+      />
+    </div>
+
+    <main>
+      <!-- Main content -->
+      <div class="position-fixed bottom-0 end-0 p-4">
+        <a href="achievement.html">
+          <i
+            class="fa-sharp-duotone fa-solid fa-trophy fa-beat-fade fa-2xl"
+            style="color: greenyellow; z-index: 1"
+          ></i>
+        </a>
+      </div>
+      <!-- projects -->
+
+      <div class="album py-5 container" id="project">
+        <div class="container">
+          <div class="icon-text-container">
+            <i class="fa-solid fa-list-check fa-xl"></i>
+            <span class="heads">Projects</span>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- AI-Virtual Assistant -->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/virtual assistant.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://ai-virtual-assistant-frontend-0wlg.onrender.com/signup" style="text-decoration: none;">AI-Virtual Assistant</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    An interactive AI-powered Virtual Assistant built with
+                    modern web technologies. It supports speech-to-text
+                    recognition, text-to-speech responses, authentication &
+                    authorization.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view12"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Agentic AI Health Checker -->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/agentic ai.PNG"
+                  class="card-img-top img-fluid transition-effect justify-content-between align-items-center"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    Agentic AI Health Checker
+                  </h5>
+                  <p class="card-text text-muted">
+                    An Agentic AI Health Symptom Checker helps users understand
+                    their health conditions by analyzing symptoms and providing
+                    probable causes, preventive advice, and care
+                    recommendations.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view11"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Machinery Failure Prediction -->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/cloud project.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    Machinery Failure Prediction Using IBM Cloud
+                  </h5>
+                  <p class="card-text text-muted">
+                    Develop a predictive maintenance model for a fleet of
+                    industrial machines to anticipate failures before they
+                    occur. The goal is to create a classification model that can
+                    predict.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view3"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- telegram bot using python -->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/telegram.png"
+                  class="card-img-top img-fluid transition-effect justify-content-between align-items-center"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">StudyMate-Bot</h5>
+                  <p class="card-text text-muted">
+                    StudyMate Bot is a Python-based Telegram bot that provides
+                    curated educational resources, including courses, free
+                    materials, and YouTube playlists, for IT-related topics.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view10"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- College Management System-->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/cms.jpeg"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    College Management System
+                  </h5>
+                  <p class="card-text text-muted">
+                    A College Management System using ASP.NET and SQL Server is
+                    a web-based application designed to efficiently manage
+                    academic and administrative tasks, including student
+                    records, course management.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view1"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- blog site -->
+            <div class="container mt-5">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/courseTpoint.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://coursetpoint.netlify.app/" style="text-decoration: none;">Blog site</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    A learning site for technology content offers resources and
+                    tutorials on web development (HTML, CSS, JavaScript),
+                    programming (Java), database management (SQL), and more.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view2"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email Validator -->
+            <div class="container mt-5 extra-project">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/email.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://rohit-ekd.github.io/Email-Validator/" style="text-decoration: none;">Email Validator</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    An email validator checks if an email address is valid and
+                    functional, often using an API key for authentication and
+                    accurate verification.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view4"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Simon Game -->
+            <div class="container mt-5 extra-project">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/simon.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://rohit-ekd.github.io/SimonGame/" style="text-decoration: none;">Simon Game</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    A Simon Game is an interactive memory challenge where
+                    players repeat sequences of lights and sounds in the correct
+                    order.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view5"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Landing Page -->
+
+            <div class="container mt-5 extra-project">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/yoo.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://rohit-ekd.github.io/TinDog/" style="text-decoration: none;">Landing Page</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    A Tindog landing page is a fun and engaging website designed
+                    to showcase a fictional dating app for dogs, combining
+                    playful design with key app features.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view6"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Salon site -->
+            <div class="container mt-5 extra-project">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/rashi.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                  <a href="https://rohit-ekd.github.io/RashiBeautyParlor/" style="text-decoration: none;">Salon Site</a>  
+                  </h5>
+                  <p class="card-text text-muted">
+                    salon website is a full-stack development project that
+                    provides clients with an interactive platform for booking
+                    services, showcasing styles, and managing appointments.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view7"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Authentication -->
+            <div class="container mt-5 extra-project">
+              <div
+                class="card mx-auto shadow-lg border-0"
+                style="
+                  width: 22rem;
+                  height: 225;
+                  transition: transform 0.3s, box-shadow 0.3s;
+                  cursor: pointer;
+                "
+              >
+                <!-- Card Image with Hover Effect -->
+                <img
+                  src="./assets/imgs/auth img.png"
+                  class="card-img-top img-fluid transition-effect"
+                  alt="Card Image"
+                  style="border-radius: 10px 10px 0 0"
+                />
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary fw-bold">
+                    <a href="https://auth-form-git-main-rohit-ekds-projects.vercel.app/login" style="text-decoration: none;">Authentication Form</a>
+                  </h5>
+                  <p class="card-text text-muted">
+                    An authentication form is a user interface component that
+                    collects credentials (such as username and password) to
+                    verify a user's identity and grant access to a system.
+                  </p>
+
+                  <!-- Buttons with Hover Effects -->
+                  <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                    <button
+                      class="btn btn-primary btn-sm px-3 shadow-sm hover-effect"
+                      id="view8"
+                    >
+                      <i class="fa-solid fa-info-circle"></i> Learn More
+                    </button>
+                    <!-- <button
+                      class="btn btn-outline-secondary btn-sm px-3 shadow-sm hover-effect"
+                      id="share"
+                    >
+                      <i class="fa-solid fa-share"></i> Share
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <button
+              id="toggleProjects"
+              class="btn btn-outline-primary px-4 shadow-sm">
+              Show All Projects
+            </button>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="container mt-5" id="education">
+          <div class="icon-text-container">
+            <i class="fa-solid fa-graduation-cap fa-xl"></i>
+            <span class="heads">Education</span>
+          </div>
+
+          <!-- MCA -->
+          <div class="education-card">
+            <div class="education-entry">
+              <div>
+                <div class="education-title">
+                  Master of Computer Application(Industrial Oriented Cloud
+                  Computing)
+                </div>
+                <div class="education-details">
+                  Galgotias University, Greater Noida<br />
+                  9.3/10 SGPA (Currently Pursuing)
+                </div>
+              </div>
+              <div class="education-year">2024–2026</div>
+            </div>
+          </div>
+
+          <!-- BCA -->
+          <div class="education-card">
+            <div class="education-entry">
+              <div>
+                <div class="education-title">
+                  Bachelor of Computer Application
+                </div>
+                <div class="education-details">
+                  Mahatma Jyotiba Phule Rohilkhand University, Bareilly<br />
+                  84.71%
+                </div>
+              </div>
+              <div class="education-year">2021–2024</div>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="education-card">
+            <div class="education-entry">
+              <div>
+                <div class="education-title">Intermediate</div>
+                <div class="education-details">
+                  O.P.G.M Sr Sec School, Chandausi(Sambhal)<br />
+                  84.2%
+                </div>
+              </div>
+              <div class="education-year">2019–2020</div>
+            </div>
+          </div>
+
+          <!-- High School -->
+          <div class="education-card">
+            <div class="education-entry">
+              <div>
+                <div class="education-title">High School</div>
+                <div class="education-details">
+                  O.P.G.M Sr Sec School, Chandausi(Sambhal)<br />
+                  64.8%
+                </div>
+              </div>
+              <div class="education-year">2017–2018</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill & Expertice -->
+        <div id="skill">
+          <div class="icon-text-container">
+            <i class="fa-solid fa-brain"></i>
+            <span class="heads">Skills</span>
+          </div>
+          <p>
+            I have learned different types of technologies and use them to solve
+            real-world problems efficiently.
+          </p>
+          <div class="skills-grid">
+            <!-- Column 1 -->
+            <div class="skill-category">
+              <h4><i class="fa-solid fa-code"></i> Programming Languages</h4>
+
+              <div class="skill" data-percent="85">
+                <div class="skill-label">
+                  Java<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="80">
+                <div class="skill-label">
+                  C/C++<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  JavaScript<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="75">
+                <div class="skill-label">
+                  python<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="skill-category">
+              <h4>
+                <i class="fa-solid fa-cloud"></i> Web & Cloud Technologies
+              </h4>
+
+              <div class="skill" data-percent="90">
+                <div class="skill-label">
+                  HTML5/CSS3<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  Node.js/express.js/React.js<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="75">
+                <div class="skill-label">
+                  IBM Cloud Auto AI<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  Watsonx.ai Studio<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Column 3 -->
+            <div class="skill-category">
+              <h4>
+                <i class="fa-solid fa-database"></i> Database Technologies
+              </h4>
+
+              <div class="skill" data-percent="80">
+                <div class="skill-label">
+                  MySQL<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="75">
+                <div class="skill-label">
+                  MongoDB<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  Firebase<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="65">
+                <div class="skill-label">
+                  Oracle<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="skill-category">
+              <h4><i class="fa-solid fa-tools"></i> Tools & Platforms</h4>
+
+              <div class="skill" data-percent="85">
+                <div class="skill-label">
+                  Git/GitHub<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  Docker<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="75">
+                <div class="skill-label">
+                  VS code <span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+
+            <!--Column 5-->
+            <div class="skill-category">
+              <h4><i class="fa-solid fa-graduation-cap"></i> CS Subjects</h4>
+
+              <div class="skill" data-percent="85">
+                <div class="skill-label">
+                  Operating System<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  SDLC & Agile Methodology<span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+
+              <div class="skill" data-percent="70">
+                <div class="skill-label">
+                  Computer Networking <span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+              <div class="skill" data-percent="80">
+                <div class="skill-label">
+                  Computer Fundamental <span class="percent">0%</span>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="container mt-5" id="about">
+          <div class="icon-text-container">
+            <i class="fa-solid fa-user fa-xl"></i>
+            <span class="heads"> About</span>
+          </div>
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="./assets/imgs/me.gif"
+                class="d-block mx-lg-auto img-fluid"
+                alt="tech"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h3 class="fw-bold text-body-emphasis lh-1 mb-3 typing-container">
+                Hello I'm Rohit Varshney🤗
+              </h3>
+              <p class="lead">
+                Hi! I’m Rohit Varshney, a passionate Full-Stack Web Developer
+                who loves creating elegant, user-friendly solutions. I’m
+                currently enhancing my skills in Cloud Computing to build and
+                deploy scalable, cloud-native applications. Always curious,
+                always learning!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact form -->
+        <div class="container" id="send">
+          <div class="icon-text-container">
+            <i class="fa-solid fa-message fa-xl"></i>
+            <span class="heads"> Sends a Message </span>
+          </div>
+          <form id="contactForm" class="cards">
+            <h3 class="t-head textCenter">Feel Free To Contact!!</h3>
+            <div class="mb-3 mt-3">
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="mb-3 mt-3">
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="mb-3 mt-3">
+              <textarea
+                id="message"
+                placeholder="Enter your message"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-success" id="submit">
+              Submit
+            </button>
+            <p id="statusMessage"></p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="custom-footer">
+        <footer>
+          <ul class="nav justify-content-center pb-3 mb-2">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skill" class="nav-link">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+          </ul>
+          <p>© 2025 Created with <span>❤️</span> by Rohit</p>
+        </footer>
+      </div>
+    </main>
+  </body>
+
+  <!-- fireBase Connection -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      set,
+    } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAAj2XXo2eZaycpLCyws6Bo0ci7B2WO22M",
+      authDomain: "getinfo-b1994.firebaseapp.com",
+      projectId: "getinfo-b1994",
+      storageBucket: "getinfo-b1994.firebasestorage.app",
+      messagingSenderId: "1055712471678",
+      appId: "1:1055712471678:web:2d07b350a4799982cb462f",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+
+    document
+      .getElementById("contactForm")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+        const statusMsg = document.getElementById("statusMessage");
+        statusMsg.style.color = ""; // Reset color
+
+        if (!name || !email || !message) {
+          alert("All fields are required!");
+          return;
+        }
+
+        set(ref(database, "user/" + name), {
+          username: name,
+          email: email,
+          message: message,
+        })
+          .then(() => {
+            statusMsg.textContent = "Your message has been submitted!";
+            statusMsg.style.color = "green";
+            document.getElementById("contactForm").reset();
+          })
+          .catch((error) => {
+            console.error("Error writing to database: ", error);
+            statusMsg.textContent = "Error submitting your message.";
+            statusMsg.style.color = "red";
+          });
+      });
+  </script>
+
+  <!-- Progress line bar -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const skills = document.querySelectorAll(".skill");
+
+      skills.forEach((skill) => {
+        const percent = parseInt(skill.getAttribute("data-percent"));
+        const bar = skill.querySelector(".progress-bar");
+        const label = skill.querySelector(".percent");
+
+        // Fill bar
+        setTimeout(() => {
+          bar.style.width = percent + "%";
+        }, 300);
+
+        // Count up animation
+        let current = 0;
+        const interval = setInterval(() => {
+          if (current >= percent) {
+            clearInterval(interval);
+          } else {
+            current++;
+            label.textContent = current + "%";
+          }
+        }, 20);
+      });
+    });
+  </script>
+
+  <!-- hide extra projects -->
+  <script>
+    const toggleBtn = document.querySelector("#toggleProjects");
+    const extraProjects = document.querySelectorAll(".extra-project");
+
+    toggleBtn.addEventListener("click", () => {
+      const isHidden = extraProjects[0].classList.contains("show");
+      extraProjects.forEach((project) => {
+        project.classList.toggle("show");
+      });
+
+      toggleBtn.textContent = isHidden ? "Show All Projects" : "Show Less";
+    });
+  </script>
+
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

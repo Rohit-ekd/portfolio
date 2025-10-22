@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2px;
+
+}
+.bg_img{
+    background-image: url(../imgs/img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 50vh;
+}
+
+#gif{
+    height: 6rem;
+    width: 8rem;
+    /* mix-blend-mode: multiply; */
+    background-color: transparent;
+}
+
+.t-head{
+    color: #009990;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* icon and text  */
+.icon-text-container {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 10px; /* Space between icon and text */
+    color: #385f7c;
+    opacity: 0.90;
+  }
+
+.heads{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #074799;
+}
+
+.cards{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow:  inset 0 -1em 1em rgba(154, 207, 154, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(107, 83, 83, 0.6);;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    color: green;
+  }
+
+  .textCenter{
+    text-align: center;
+  }
+
+  /* gif  */
+  .gif-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+
+  .gif-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; /* Change background color here */
+    z-index: 1;
+  }
+
+  .imgs {
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: multiply; /* Adjust blend mode if needed */
+  }
+
+.nav{
+  color: blue;
+}
+.nav :hover{
+  opacity: 0.80;
+}
+
+.typing-container {
+  font-size: 24px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333; /* Cursor effect */
+  width: 20ch; /* Adjust the number to match your text length */
+  animation: typing 4s steps(20) infinite, blink 0.5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch; /* Adjust to match the text length */
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right-color: #333;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+
+
+/* *************************************************************************************  */
+/* update */
+.hover-effect:hover {
+  background-color: #f8f9fa !important;
+  color: #0d6efd !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.transition-effect:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Image Hover Zoom Effect */
+.transition-effect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.hover-effect:hover {
+  background-color: #f8f9fa !important;
+  color: #0d6efd !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
+  /* Smooth hover zoom for buttons */
+  .hover-effect:hover {
+    background-color: #f8f9fa !important;
+    color: #0d6efd !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* GIF container responsiveness */
+  .position-relative {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .position-relative:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .glow-text {
+    text-shadow: 
+      0 0 5px rgba(255, 255, 102, 0.8), /* Inner glow */
+      0 0 10px rgba(255, 255, 102, 0.6), /* Middle glow */
+      0 0 20px rgba(255, 255, 102, 0.5), /* Outer glow */
+      0 0 30px rgba(255, 255, 102, 0.4); /* Distant glow */
+    /* animation: glow-animation 1.5s infinite alternate; */
+  }
+
+  /* Glow animation */
+  @keyframes glow-animation {
+    from {
+      text-shadow: 
+        0 0 5px rgba(255, 255, 102, 0.8),
+        0 0 10px rgba(255, 255, 102, 0.6),
+        0 0 20px rgba(255, 255, 102, 0.5),
+        0 0 30px rgba(255, 255, 102, 0.4);
+    }
+    to {
+      text-shadow: 
+        0 0 10px rgba(255, 255, 102, 1),
+        0 0 20px rgba(255, 255, 102, 0.8),
+        0 0 30px rgba(255, 255, 102, 0.7),
+        0 0 40px rgba(70, 213, 206, 0.6);
+    }
+  }
+
+  .profile-wrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+  }
+
+
+  table.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  tbody tr td:first-child span.t-head {
+    color: #007bff;
+  }
+
+  tbody tr:hover td:first-child span.t-head {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  thead th {
+    border-bottom: 2px solid #dee2e6;
+  }
+
+/* Education css */
+ #education {
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .icon-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .icon-text-container i {
+    color: #007bff;
+    margin-right: 10px;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+
+  .heads {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+  }
+
+  .education-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .education-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #212529;
+  }
+
+  .education-details {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .education-year {
+    font-size: 14px;
+    font-weight: 500;
+    color: #007bff;
+    text-align: right;
+  }
+
+  .education-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 600px) {
+    .education-entry {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .education-year {
+      margin-top: 10px;
+    }
+  }
+
+  /* Skill CSS */
+      #skill {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 40px 15px;
+        max-width: 1300px;
+        margin: 2rem auto;
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+      }
+
+      .icon-text-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .icon-text-container i {
+        color: #007bff;
+        font-size: 26px;
+        margin-right: 10px;
+        animation: bounce 2s infinite;
+      }
+
+      .heads {
+        font-size: 26px;
+        font-weight: bold;
+        color: #343a40;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 40px;
+        margin-top: 30px;
+      }
+
+      .skill-category h4 {
+        color: #007bff;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+
+      .skill {
+        margin-bottom: 25px;
+      }
+
+      .skill-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: #343a40;
+      }
+
+      .progress-container {
+        background-color: #dee2e6;
+        border-radius: 50px;
+        overflow: hidden;
+        height: 14px;
+        position: relative;
+      }
+
+      .progress-bar {
+        height: 100%;
+        width: 0;
+        background: linear-gradient(90deg, #00bfff, #007bff);
+        border-radius: 50px;
+        transition: width 2s ease;
+      }
+
+      .percent {
+        color: #007bff;
+        font-weight: bold;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+    
+
+      /*Footer CSS*/
+
+        .custom-footer {
+    background-color: #f1f3f5;
+    padding: 30px 15px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .custom-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ced4da;
+  }
+
+  .custom-footer li {
+    margin: 10px 15px;
+    position: relative;
+  }
+
+  .custom-footer .nav-link {
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+  .custom-footer .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+  }
+
+  .custom-footer .nav-link:hover {
+    color: #007bff;
+  }
+
+  .custom-footer .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .custom-footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  .custom-footer p span {
+    color: #e63946;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    50% {
+      transform: scale(1.2);
+      opacity: 0.7;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+  /* Extra projects hidden by default */
+.extra-project {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+/* When visible */
+.extra-project.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+  .profile-img {
+    position: static;
+    margin: 20px auto 0;
+    display: block;
+  }
+
+  .hero-section {
+    padding: 60px 15px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.display-4 {
+    font-size: 1.5rem !important;
+  }
+  .heads {
+    font-size: 1.3rem;
+  }
+}
